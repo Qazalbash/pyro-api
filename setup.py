@@ -37,9 +37,9 @@ setup(
         'test': [
             'flake8',
             'pytest>=5.0',
-            'pyro-ppl@https://api.github.com/repos/pyro-ppl/pyro/tarball/dev.tar.gz',
-            'numpyro@https://api.github.com/repos/pyro-ppl/numpyro/tarball/master.tar.gz',
-            'funsor@https://api.github.com/repos/pyro-ppl/funsor/tarball/master.tar.gz',
+            'pyro-ppl @ https://github.com/pyro-ppl/pyro/archive/dev.tar.gz',
+            'numpyro @ https://github.com/pyro-ppl/numpyro/archive/master.tar.gz',
+            'funsor @ https://github.com/pyro-ppl/funsor/archive/master.tar.gz',
         ],
         'dev': [
             'sphinx>=2.0',
