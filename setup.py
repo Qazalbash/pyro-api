@@ -37,7 +37,7 @@ setup(
         'test': [
             'flake8',
             'pytest>=5.0',
-            'torch<2.5',
+            'torch<2.5',  # newer releases are blocked by https://github.com/pyro-ppl/funsor/pull/610
             'pyro-ppl @ https://github.com/pyro-ppl/pyro/archive/dev.tar.gz',
             'numpyro @ https://github.com/pyro-ppl/numpyro/archive/master.tar.gz',
             'funsor @ https://github.com/pyro-ppl/funsor/archive/master.tar.gz',
